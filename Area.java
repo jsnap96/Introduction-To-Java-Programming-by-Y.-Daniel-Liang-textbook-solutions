@@ -19,7 +19,7 @@ public class Area {
 		
 		double length = 2*side*Math.sin(Math.PI/5);
 
-		double Area = (5*length*length)/(4*Math.tan(Math.PI/5));
+		double Area = (4*length*length)/(4*Math.tan(Math.PI/5));
 		
 		
 		System.out.print("The area of the Pentagon is " + String.format("%.2f", Area));
